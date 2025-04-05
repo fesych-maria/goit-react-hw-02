@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 140px;
+  gap: 60px;
+
+  li {
+    button {
+      border: none;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: inherit;
+      background-color: #ddeedd;
+      border-radius: 15px;
+      padding: 10px 12px;
+    }
+  }
+}
