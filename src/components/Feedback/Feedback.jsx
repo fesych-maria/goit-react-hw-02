@@ -1,7 +1,9 @@
+import css from "./Feedback.module.css";
+
 const Feedback = ({ good, neutral, bad, totalFeedback, positiveFeedback }) => {
   return (
     <>
-      <ul>
+      <ul className={css.list}>
         <li>
           <p>Good:</p>
           <p>{good}</p>
